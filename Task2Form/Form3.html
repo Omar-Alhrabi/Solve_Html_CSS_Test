@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {
+            margin: 10px;
+            padding : 20px 100px 20px 10px;
+           display: inline-block;
+           
+        }
+    </style>
+</head>
+<body>
+    
+        <form>
+          <fieldset >
+            <label for="Fname">Name:</label>
+            <input type="text" name="Name" id="Fname"> <br><br>
+
+            <label for="Gender">Gender </label>
+            <input type="radio" id="Gender" name="Gender" value="Male"> Male 
+            <input type="radio" id="Gender" name="Gender" value="Female"> Female <br><br>
+
+            <label for="Country">Country :</label>
+            <select id="Country" name="Country">
+                <option > Select an option </option>
+                <option value="Amman">Amman</option>
+                <option value="Zarqa">Zarqa</option>
+                <option value="Irbid">Irbid</option>
+                <option value="Mafraq">Mafraq</option>
+            </select><br><br>
+
+            <label for="Massage">Massage:</label><br>
+            <textarea name="Massage" id="Massage" rows="5" cols="30" ></textarea><br>
+            <br>
+            <input type="checkbox" name="Subscribe" value="Subscribe">
+            <label for="Subscribe">Subscribe?</label><br><br>
+
+            <input type="submit" value="submit"><br>
+        </fieldset>
+
+        </form>
+    
+</body>
+</html>

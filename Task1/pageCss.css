@@ -1,0 +1,14 @@
+a {
+ padding: 10px;
+ margin: 15px;
+font-size: 40px; 
+background-color: cadetblue;
+color: black;
+border-radius: 20px;
+display: block;
+text-decoration: none;
+}
+a:hover{
+
+    transition: font-size 0.5s ease-in-out;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(73, 73, 168);
+            font-family: "Exo 2", serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            
+        }
+        .txt{
+            color: aliceblue;
+            text-align: center;
+        }
+
+        h3{
+            font-family: "Caveat", serif;
+            font-optical-sizing: auto;
+        }
+       /*  .bord{
+            width: 500px;
+            border-radius: 10px;
+            margin: auto;
+            padding: 20px;
+            background-color: aliceblue;
+        
+        }
+        input , select{
+            width: 100%;
+            padding: 5px;
+            margin: 5px;
+            border: 3px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+
+        }
+        input[type=radio]{
+            width: 20px;
+        }
+        input:focus{
+            border: 3px solid #555;
+        }
+        */
+        input[type=submit]{
+            width: 100%;
+            background-color: green;
+            color: azure;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type=submit]:hover{
+            background-color: greenyellow;
+        } 
+        input{
+            width: 100%;
+        }
+    /* form{
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        border: 1px solid black;
+        background-color: aquamarine;
+    }  */
+</style>
+</head>
+<body>
+    <div class="txt">
+    <h1>Amman Coding Academy Survey From</h1>
+    <h3>Thank , you for taking the time help</h3>
+    </div>
+   
+        <div style="background-color: white;">
+            <form style="background-color: yellow;">
+
+            <label for="Name">Name</label><br>
+            <input type="text" placeholder="Enter Your Name" required><br>
+
+            <label for="Email">Email</label><br>
+            <input type="email" placeholder="Enter Your Email" required><br>
+
+            <label for="Age">Age (option)</label><br>
+            <input type="number" placeholder="Age" ><br>
+
+            <label for="selectSrv">How did you like my Survey</label><br>
+            <select name="selectSrv" id="slc1">
+                <option value="">select an option</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select><br><br>
+            <label for="radio">Would you recommend my pen to a friend?</label><br>
+            <input type="radio" name="radio" value="Definitely"> Definitely<br>
+            <input type="radio" name="radio" value="Maybe"> Maybe<br>
+            <input type="radio" name="radio" value="Not Sure"> Not Sure<br><br>
+
+            <label for="selectFav">What is your Favorite Feature of codepen </label><br>
+            <select name="selectFav" id="slc2">
+                <option value="">select an option</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select><br><br>
+
+            <label for="checkbox">What Would you like to see improved My Survey> <small>(check all that apply)</small></label><br>
+            <input type="checkbox"> CSS needs to be more complex <br>
+            <input type="checkbox"> Ues some javaScript <br>
+            <input type="checkbox"> No changes requierd <br><br>
+            <label for="area">Any comments or suggestions?</label><br>
+
+            <textarea name="area" placeholder="Enter your comment here..." rows="5" cols="50"></textarea>
+            <br>
+            <br>
+
+            <input type="submit" value="submit" id="submit"><br>
+       
+        </form>
+    </div>
+    
+</body>
+</html>
