@@ -15,6 +15,7 @@
     <style>
         body{
             background-color: rgb(73, 73, 168);
+            color: azure;
             font-family: "Exo 2", serif;
             font-optical-sizing: auto;
             font-weight: 600;
@@ -30,30 +31,7 @@
             font-family: "Caveat", serif;
             font-optical-sizing: auto;
         }
-       /*  .bord{
-            width: 500px;
-            border-radius: 10px;
-            margin: auto;
-            padding: 20px;
-            background-color: aliceblue;
-        
-        }
-        input , select{
-            width: 100%;
-            padding: 5px;
-            margin: 5px;
-            border: 3px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-
-        }
-        input[type=radio]{
-            width: 20px;
-        }
-        input:focus{
-            border: 3px solid #555;
-        }
-        */
+    
         input[type=submit]{
             width: 100%;
             background-color: green;
@@ -64,21 +42,20 @@
             border-radius: 4px;
             cursor: pointer;
         }
-        input[type=submit]:hover{
-            background-color: greenyellow;
-        } 
-        input{
+        #inp {
             width: 100%;
         }
-    /* form{
-        margin: auto;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        width: 350px;
-        border: 1px solid black;
-        background-color: aquamarine;
-    }  */
+     form{
+       padding: 10px;
+    }  
+      .bord{
+        background-color: rgb(12, 12, 81);
+        margin: 0 350px 0 ;
+        padding: 25px;
+        display: inline-flex;
+        border-radius: 8px;
+
+      }
 </style>
 </head>
 <body>
@@ -87,17 +64,17 @@
     <h3>Thank , you for taking the time help</h3>
     </div>
    
-        <div style="background-color: white;">
-            <form style="background-color: yellow;">
+        <div class="bord">
+            <form>
 
             <label for="Name">Name</label><br>
-            <input type="text" placeholder="Enter Your Name" required><br>
+            <input type="text" placeholder="Enter Your Name" id="inp" required><br>
 
             <label for="Email">Email</label><br>
-            <input type="email" placeholder="Enter Your Email" required><br>
+            <input type="email" placeholder="Enter Your Email" id="inp" required><br>
 
             <label for="Age">Age (option)</label><br>
-            <input type="number" placeholder="Age" ><br>
+            <input type="number" placeholder="Age"id="inp" ><br>
 
             <label for="selectSrv">How did you like my Survey</label><br>
             <select name="selectSrv" id="slc1">
@@ -123,9 +100,9 @@
             <input type="checkbox"> CSS needs to be more complex <br>
             <input type="checkbox"> Ues some javaScript <br>
             <input type="checkbox"> No changes requierd <br><br>
-            <label for="area">Any comments or suggestions?</label><br>
+            <label for="area">Any comments or suggestions?</label><br><br>
 
-            <textarea name="area" placeholder="Enter your comment here..." rows="5" cols="50"></textarea>
+            <textarea name="area" placeholder="Enter your comment here..." rows="5" cols="50" id="inp"></textarea>
             <br>
             <br>
 
