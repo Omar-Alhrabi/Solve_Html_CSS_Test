@@ -1,0 +1,19 @@
+.dv1{
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    border : 3px ridge rgb(165, 164, 164) ;
+}
+.dv2{
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    border : 3px solid black ;
+
+}
+.dv3{
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    border : 3px double black ;
+}

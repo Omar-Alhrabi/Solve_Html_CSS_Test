@@ -1,0 +1,11 @@
+.dv{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px red , 10px 10px blue , 15px 15px green , 20px 20px yellow;
+
+}

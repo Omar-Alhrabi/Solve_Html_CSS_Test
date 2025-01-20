@@ -1,0 +1,115 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+  }
+    .con{
+        width: 480px;
+             height: 400px;
+                 display: flex;
+
+                     flex-wrap: wrap;
+}
+    
+    .dv{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(43, 211, 226);
+        border-radius:6px ;
+        text-align: center;
+        position: relative;
+        left: 60px;
+        top: 60px;
+      
+        
+    }
+    .dv1{
+        width: 120px;
+        height: 120px;
+        background-color: blueviolet;
+        border-radius:6px ;
+        text-align: center;
+     
+    }
+    .dv2{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(74, 123, 108);
+        border-radius:6px ;
+        text-align: center;
+      
+        
+    }
+    .dv3{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(226, 43, 43);
+        border-radius:6px ;
+        text-align: center;
+       
+    }
+    .dv4{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(119, 226, 43);
+        border-radius:6px ;
+        text-align: center;
+     
+    }
+    .dv5{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(226, 43, 43);
+        border-radius:6px ;
+        text-align: center;
+      
+    }
+    .dv6{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(52, 43, 226);
+        border-radius:6px ;
+        text-align: center;
+      
+    }
+    .dv7{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(226, 43, 208);
+        border-radius:6px ;
+        text-align: center;
+    
+    }
+    .dv8{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(226, 208, 43);
+        border-radius:6px ;
+        text-align: center;
+      
+    }
+    .dv9{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(226, 43, 128);
+        border-radius:6px ;
+        text-align: center;
+       
+    }
+    .dv10{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(226, 113, 43);
+        border-radius:6px ;
+        text-align: center;
+       
+    }
+    .dv11{
+        width: 120px;
+        height: 120px;
+        background-color: blueviolet;
+        border-radius:6px ;
+        text-align: center;
+ 
+    }

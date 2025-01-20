@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.container1{
+    background-color: aquamarine;
+    display: flex;
+     justify-content:center; 
+      align-items: center;
+    
+    width: 100%;
+    height: 55px;
+    flex-basis: 200%;
+    
+
+}
+.container2{
+    width: 100%;
+    background-color: rgb(246, 127, 255);
+    align-items: center;
+    display: flex;
+   justify-content: center;
+   height: 55px;
+}

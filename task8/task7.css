@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    border: orange solid 5px;
+    margin: 0;
+    
+  }
+
+  div {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .a {
+    background-color: green;
+  }
+  .b {
+    background-color: aqua;
+  }
+  .c {
+    background-color: purple;
+  }
+  .d {
+    background-color: black;
+  }
+  .e {
+    background-color: yellow;
+  }
+  .f {
+    background-color: orange;
+  }
+  .g {
+    background-color: red;
+  }
+  .h {
+    background-color: grey;
+  }
+  .i {
+    background-color: greenyellow;
+  }
+  .j {
+    background-color: green;
+  }

@@ -1,0 +1,9 @@
+.card{
+    background-color: aqua;
+    display: inline-flex;
+    width: 155px;
+    height: 180px;
+    border-radius: 4px;
+    padding: 5px;
+    
+}

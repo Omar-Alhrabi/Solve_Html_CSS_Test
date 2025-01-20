@@ -1,0 +1,10 @@
+div{
+    margin: 20px;
+    
+    background-color: yellow;
+    width: 40%;
+    height: 250px;
+    padding : 20px;
+    align-items: flex-end;
+    display: flex;
+}

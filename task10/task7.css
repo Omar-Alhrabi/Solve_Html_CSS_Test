@@ -1,0 +1,12 @@
+
+div{
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    border: 10px solid transparent;
+    border-image: url(/task10/pic/ai.jpg) 30% round;
+    align-items: center;
+    display: flex;
+    padding: 10px
+
+}

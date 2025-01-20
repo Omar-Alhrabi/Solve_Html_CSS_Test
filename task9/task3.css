@@ -1,0 +1,42 @@
+.dv1{
+    width: 150px;
+    height: 90px;
+    background-color: blue;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  
+}
+.dv2{
+    width: 150px;
+    height: 90px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  
+    
+}
+.dv3{
+    width: 150px;
+    height: 90px;
+    background-color: rgb(234, 255, 0);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+   
+}
+.dv4{
+    width: 150px;
+    height: 90px;
+    background-color: rgb(0, 255, 4);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  
+   
+}

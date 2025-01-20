@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    height: 100%;
+}
+.box1{
+    height: 95vh;
+    display: flex;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    display: flex;
+    margin: auto;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 70px 0px blue;
+    
+}
+.dv{
+
+    display: flex;
+
+    font-size: 20px;
+   
+}
